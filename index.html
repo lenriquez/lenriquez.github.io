@@ -21,6 +21,8 @@
   <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+  <link href="css/lenriquez.css" rel="stylesheet">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -65,7 +67,7 @@
           <a href="#education"> Education </a>
           </li>
           <li class="page-scroll">
-            <a href="#contact">Contact Information</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -122,37 +124,37 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-4 portfolio-item">
+        <div id="alertlogic" class="col-sm-4 portfolio-item">
           <div class="pict">
             <img src="img/AlertLogic.jpeg" class="img-responsive" alt="">
+            <p>Alert Logic</p> 
           </div>
-          <p>Alert Logic</p> 
         </div>
-        <div class="col-sm-4 portfolio-item">
+        <div id="epfl" class="col-sm-4 portfolio-item">
           <div class="pict">
             <img src="img/EPFL.png" class="img-responsive" alt="">
           </div>
           <p>École Polytechnique Fédérale de Lausanne</p>
         </div>
-        <div class="col-sm-4 portfolio-item">
+        <div id="walsh" class="col-sm-4 portfolio-item">
           <div class="pict"> 
             <img src="img/walsh.jpeg" class="img-responsive" alt="">
           </div>
           <p>Walsh Integrated</p>
         </div>
-        <div class="col-sm-4 portfolio-item">
+        <div id="zeti" class="col-sm-4 portfolio-item">
           <div class="pict">
             <img src="img/zeti.jpeg" class="img-responsive" alt="">
           </div>
           <p>Educational Web Service</p>
         </div>
-        <div class="col-sm-4 portfolio-item">
+        <div id="univalle" class="col-sm-4 portfolio-item">
           <div class="pict">
             <img src="img/Univalle.jpeg" class="img-responsive" alt="">
           </div>  
           <p>Univalle </p>
         </div>
-        <div class="col-sm-4 portfolio-item">
+        <div id="special" class="col-sm-4 portfolio-item">
           <div class="pict">
             <img src="img/special_projects.jpeg" class="img-responsive" alt="">
           </div>
@@ -181,9 +183,9 @@
             2011-2013 <br/><br/><br/>
   
             <strong> Bachelor of Computer Science: </strong> <br/>
-              Universidad del Valle<br/>
-              Cali, Valle del Cauca, Colombia<br/>
-              2005-2010<br/><br/>
+            Universidad del Valle<br/>
+            Cali, Valle del Cauca, Colombia<br/>
+            2005-2010<br/><br/>
         </p>
        </div> 
       </div>
@@ -224,229 +226,138 @@
     </a>
   </div>
 
-  <!-- Portfolio Modals -->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Project Title</h2>
-              <hr class="star-primary">
-              <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-              <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-              <ul class="list-inline item-details">
-                <li>Client:
-                  <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                  </strong>
-                </li>
-                <li>Date:
-                  <strong><a href="http://startbootstrap.com">April 2014</a>
-                  </strong>
-                </li>
-                <li>Service:
-                  <strong><a href="http://startbootstrap.com">Web Development</a>
-                  </strong>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div id="dialog_alertlogic" class="dialog-fonts">
+    <h4>Software Development Engineer in Test</h4>
+    <h5 class="le_subtitle">Alert Logic, Cali - Colombia</h5><br/>
+    <ul>
+      <li>
+        Designed and implemented an automation framework to run regression,
+        system and performance tests
+      </li>
+      <li >
+        Developed script for automation on Bash, Ruby and PHP to stand up 
+        infrastructure and configure Linux machines with different cloud 
+        providers and local environments
+      </li>
+      <li>
+        Communicated with different departments to solved software issues
+      </li>
+      <li>
+        Automated Continuous Integration using Jenkins
+      </li>
+      <li>
+        Automated Continuous Integration using Jenkins
+      </li>
+        Automated build, deploy, and manage infrastructure
+      <li>
+        Agile Methodologies
+      </li>
+      <li>
+        <strong>Technologies:</strong> 
+        Ruby, AWS EC2, Data Pipe, Jenkins, Bash, C and PHP, Linux, Chef
+      </li>
+    </ul>
   </div>
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Project Title</h2>
-              <hr class="star-primary">
-              <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-              <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-              <ul class="list-inline item-details">
-                <li>Client:
-                  <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                  </strong>
-                </li>
-                <li>Date:
-                  <strong><a href="http://startbootstrap.com">April 2014</a>
-                  </strong>
-                </li>
-                <li>Service:
-                  <strong><a href="http://startbootstrap.com">Web Development</a>
-                  </strong>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+
+  <div id="dialog_epfl" class="dialog-fonts">
+    <h4>Java Web Developer</h4>
+    <h5 class="le_subtitle">École Polytechnique Fédérale de Lausanne / Valle 
+      University, Switzerland - Colombia
+    </h5><br/>
+    <ul>
+      <li>
+        Designed a web application to calculate, store and display data of 
+        chemistry experiments
+      </li>
+      <li >
+        Developed front-end using GWT and compiled into JavaScript using some of
+        the new characteristics of HTML5 like Drag and Drop Files and Web 
+        Storage
+      </li>
+      <li>
+        Developed back-end using technologies like JPA and RPC
+      </li>
+      <li>
+        <strong>Technologies:</strong> 
+        Java, GXT, RPC, JPA, JavaScript, HTML5, CVS, Linux, Tomcat
+      </li>
+    </ul>
   </div>
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Project Title</h2>
-              <hr class="star-primary">
-              <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-              <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-              <ul class="list-inline item-details">
-                <li>Client:
-                  <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                  </strong>
-                </li>
-                <li>Date:
-                  <strong><a href="http://startbootstrap.com">April 2014</a>
-                  </strong>
-                </li>
-                <li>Service:
-                  <strong><a href="http://startbootstrap.com">Web Development</a>
-                  </strong>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+
+  <div id="dialog_walsh" class="dialog-fonts">
+    <h4>Software Developer Developer</h4>
+    <h5 class="le_subtitle">Walsh Integrated, Montréal, Québec</h5><br/>
+    <ul>
+      <li>
+        Redesign and Maintained a CodeIgniter Backend System
+      </li>
+      <li >
+        Developed REST Web Services for new mobile applications
+      </li>
+      <li>
+        Maintained two Android mobile projects
+      </li>
+      <li>
+        Improved database performance by adding indexes and foreign keys
+      </li>
+      <li>
+        <strong>Technologies:</strong> 
+        PHP, HTML, JQuery, AJAX, CSS, SQL Server, Android
+      </li>
+    </ul>
   </div>
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Project Title</h2>
-              <hr class="star-primary">
-              <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
-              <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-              <ul class="list-inline item-details">
-                <li>Client:
-                  <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                  </strong>
-                </li>
-                <li>Date:
-                  <strong><a href="http://startbootstrap.com">April 2014</a>
-                  </strong>
-                </li>
-                <li>Service:
-                  <strong><a href="http://startbootstrap.com">Web Development</a>
-                  </strong>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+
+  <div id="dialog_zeti" class="dialog-fonts">
+    <h4>PHP Web Developer</h4>
+    <h5 class="le_subtitle">Educational Web Service, Colombia</h5><br/>
+    <ul>
+      <li>
+        Designed and implemented a web information system for registration, 
+        course delivery and student records
+      </li>
+      <li >
+        Designed a multi-table relational database using PostgreSQL and created 
+        run- time query statements using SQL to access data 
+      </li>
+      <li>
+        Collaborated with members of other departments to ensure system-wide 
+        implementation
+      </li>
+      <li>
+        <strong>Technologies:</strong> 
+        PHP, HTML, JQuery, AJAX, CSS, PostgreSQL 
+      </li>
+    </ul>
   </div>
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Project Title</h2>
-              <hr class="star-primary">
-              <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-              <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-              <ul class="list-inline item-details">
-                <li>Client:
-                  <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                  </strong>
-                </li>
-                <li>Date:
-                  <strong><a href="http://startbootstrap.com">April 2014</a>
-                  </strong>
-                </li>
-                <li>Service:
-                  <strong><a href="http://startbootstrap.com">Web Development</a>
-                  </strong>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+
+  <div id="dialog_univalle" class="dialog-fonts">
+    <h4>PHP Web Developer</h4>
+    <h5 class="le_subtitle">Planning and Institutional Development, Valle 
+      University, Colombia
+    </h5><br/>
+    <ul>
+      <li>
+        Implemented an online poll to analyze students performance based on 
+        social and economic status
+      </li>
+      <li >
+        Developed a budget application, migration to PHP
+      </li>
+      <li>
+        Applied changes to legacy code
+      </li>
+      <li>
+        Created detail specifications, defined and executed test plans and coded
+        modules and documentation
+      </li>
+      <li>
+        <strong>Technologies:</strong> 
+        PHP, Symfony, CSS, JQuery, AJAX, PostgreSQL, SVN, Linux
+      </li>
+    </ul>
   </div>
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Project Title</h2>
-              <hr class="star-primary">
-              <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
-              <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-              <ul class="list-inline item-details">
-                <li>Client:
-                  <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                  </strong>
-                </li>
-                <li>Date:
-                  <strong><a href="http://startbootstrap.com">April 2014</a>
-                  </strong>
-                </li>
-                <li>Service:
-                  <strong><a href="http://startbootstrap.com">Web Development</a>
-                  </strong>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
+
 
   <!-- jQuery Version 1.11.0 -->
   <script src="js/jquery-1.11.0.js"></script>
@@ -465,6 +376,8 @@
 
   <!-- Custom Theme JavaScript -->
   <script src="js/freelancer.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+  <script src="js/lenriquez.js"></script>
 
 </body>
 
