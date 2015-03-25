@@ -1,0 +1,38 @@
+.ui-dialog-titlebar {
+    float: right;
+    border: 0;
+    padding: 0;
+    background: white;
+}
+.ui-dialog-titlebar-close {
+    top: 0;
+    right: 0;
+    margin: 0;
+    z-index: 999;
+    background: white;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header 
+.ui-state-default {
+	background: white;
+	border: 0px;
+}
+
+.dialog{
+    text-align: justify;
+}
+
+.dialog-fonts li{
+    font-size:  0.9em;
+    margin-top: 5px;
+}
+
+.le_subtitle{
+    color: #A4A4A4;
+    font-weight: 100;
+    text-align: justify;
+}
+
+:focus {
+	outline: -webkit-focus-ring-color auto 0px;
+}
